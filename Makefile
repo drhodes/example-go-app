@@ -1,6 +1,6 @@
 apply:
-	kubectl apply -f service.yml
-	kubectl apply -f deployment.yml
+	kubectl apply -f service.yaml
+	kubectl apply -f deployment.yaml
 
 clean: ## clean all the things
 	echo implement clean makefile rule
