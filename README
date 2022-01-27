@@ -1,5 +1,8 @@
-an example app written by ElliotForbes as documented in the following tutorial
+
+
+This is an example app written by ElliotForbes as documented in the
+following tutorial,
 
 https://www.digitalocean.com/community/tutorials/how-to-deploy-resilient-go-app-digitalocean-kubernetes
 
-
+It is being adapted to be a serve in a jupyterhub kubernetes cluster.

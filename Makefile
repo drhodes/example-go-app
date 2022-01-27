@@ -1,10 +1,4 @@
 
-clean: ## clean all the things
-	echo implement clean makefile rule
-
-work: ## open all files in editor
-	emacs -nw *.v
-
 # cloud rules ------------------------------------------------------------------
 
 # cloud rules are only relevent in the context of the hosting cloud
@@ -19,6 +13,18 @@ cloud.apply: ## apply kubernetes config files
 
 cloud.test: ## cloud testing
 	@echo how to test?
+
+# dev rules ------------------------------------------------------------------
+
+# rules for development
+
+dev.clean: ## clean all the things
+	echo implement clean makefile rule
+
+dev.work: ## open all files in editor
+	emacs -nw *.v
+
+
 
 
 # http://marmelab.com/blog/2016/02/29/auto-documented-makefile.html
